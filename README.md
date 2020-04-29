@@ -2,11 +2,9 @@
   <img src="src/assets/logo.svg" alt="Github" width="200px">
 </h1>
 
----
-
-<h3 align="center">
+<h2 align="center">
   GitHub Explorer - see the details of your favorite repositories.
-</h3>
+</h2>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pedroleinar/github-explorer">
