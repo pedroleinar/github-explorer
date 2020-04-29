@@ -1,5 +1,6 @@
 import React, { useState, FormEvent, useEffect } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
+import { GoMarkGithub } from 'react-icons/go';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
 
@@ -62,12 +63,15 @@ const Dashboard: React.FC = () => {
   return (
     <>
       <img src={logoImg} alt="" />
-      <Title>Explore GitHub Repositories</Title>
+      <Title>
+        Explore GitHub Repositories
+        <GoMarkGithub size={34} />
+      </Title>
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
         <input
           value={newRepo}
           onChange={(e) => setNewRepo(e.target.value)}
-          placeholder="Enter the repository name"
+          placeholder="name/repository"
         />
         <button type="submit">Search</button>
       </Form>

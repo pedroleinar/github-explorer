@@ -7,11 +7,16 @@ interface FormProps {
 
 export const Title = styled.h1`
   color: #3a3a3a;
-  font-size: 48px;
-  max-width: 450px;
+  font-size: 36px;
+  max-width: 750px;
   line-height: 56px;
 
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  svg {
+    margin-left: 16px;
+  }
 `;
 
 export const Form = styled.form<FormProps>`

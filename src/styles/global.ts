@@ -7,7 +7,10 @@ export default createGlobalStyle`
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+
 }
+
+
 
 body {
   background: #F0F0F5 url(${githubBackground}) no-repeat 70% top;
