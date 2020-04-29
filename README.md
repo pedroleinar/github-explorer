@@ -2,10 +2,14 @@
   <img src="src/assets/logo.svg" alt="Github" width="200px">
 </h1>
 
+ ---
+ 
 <h2 align="center">
   GitHub Explorer - see the details of your favorite repositories.
 </h2>
 
+ ---
+ 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pedroleinar/github-explorer">
 
@@ -19,14 +23,14 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   </p>
   
-  ---
-
+ ---
+ 
 <img alt="Layout" src=".github/dashboard.png">
 
 <img alt="Layout" src=".github/repository.png">
 
----
-
+ ---
+ 
 ## 🚀 technologies
 
 - [ReactJS](https://reactjs.org/)
