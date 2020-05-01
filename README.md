@@ -43,5 +43,28 @@
 
 ---
 
+## Installation
+
+First of all, you may need to clone this repo 
+
+```
+git clone https://github.com/PedroLeinar/github-explorer.git
+```
+
+Run the following scripts in order to execute the application in development mode 
+
+
+
+Install the dependencies
+```
+yarn install
+``` 
+Start the application
+```
+yarn start
+```
+
+---
+
 Feito com ♥ by [Pedro Gomes](https://www.linkedin.com/in/pedroleinar/)
 
